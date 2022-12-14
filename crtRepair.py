@@ -43,7 +43,6 @@ for command in parsed_commands:
         x_register += int(command[1])
         #print(f"Adding {command[1]} after cycle {current_cycle}")
         
-        
 print(current_cycle)
 for row in collected_rows:
     print(row)
