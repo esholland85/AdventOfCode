@@ -50,6 +50,7 @@ def breadthSearch(node):
             cc = c + dc
             if 0<=rr<rows and 0<=cc<columns and elevations[rr][cc]<= 1 + elevations[r][c]:
                 possible_moves.append((rr,cc,d+1))
+
     
 print(breadthSearch(1))
 print(breadthSearch(2))
